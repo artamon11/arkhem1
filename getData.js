@@ -18,7 +18,7 @@ async function getResponse(text) {
     let response = await fetch('./base.json');
     let content = await response.json();
     let svg = document.querySelector('path');
-    // console.log(content);
+    console.log(content);
 
     let list = document.querySelector('.posts')
 
